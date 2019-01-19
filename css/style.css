@@ -1,0 +1,378 @@
+/*font-family: 'PT Sans', sans-serif;*/
+/*font-family: 'PT Sans', sans-serif;*/
+
+body{
+	
+	margin:0;
+	padding:0;
+	font-family: 'PT Sans', sans-serif;
+	
+}
+
+#menu {
+
+	background-color: #fcdb00;
+
+
+}
+
+#b {
+
+	background-color: #fcdb00;
+}
+
+.wrapper{
+	
+	width: 70%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.title {
+
+	width: 20%;
+	float: left;
+	margin-top: 45px;
+
+}
+.title img{
+
+	float: left;
+
+
+
+}
+.title h3{
+
+	margin: 10px 50px;
+	font-size: 30px;
+	line-height: 20px;
+	font-family: 'PT Sans', sans-serif;
+
+}
+
+.menubar {
+
+	float: right;
+	width: 60%;
+	margin-top: 45px;
+
+
+}
+.menubar ul{
+	
+	float: right;
+
+}
+.menubar ul li{
+
+	float: left;
+	list-style: none;
+}
+.menubar ul li a{
+
+
+    color: #010101;
+	text-decoration: none;
+	font-size: 25px;
+	line-height: 25px;
+	font-weight: bold;
+	font-family: 'PT Sans', sans-serif;
+	padding: 0 35px;
+	display: block;
+	transition: transform .2s;
+
+}
+.menubar ul li a:hover{
+
+	font-size: 250%;
+	
+
+}
+.wrapper2{
+
+
+	width: 70%;
+	overflow: hidden;
+	margin: 0 auto;
+	padding-top: 40px;
+	padding-bottom: 100px;
+}
+
+.inspire {
+
+	float: left;
+	width:40%;
+}
+
+.text {
+	font-family: 'PT Sans', sans-serif;
+	    margin-top: -50px
+}
+.text h1{
+	
+	color: #313841;
+	font-size: 30px;
+	line-height: 15px;
+	font-weight: bold;
+	margin-top: 130px;
+}
+.text h4{
+
+    color: #313841;
+	font-size: 20px;
+	line-height: 25px;
+	margin-top: 30px;
+
+}
+.text p{
+
+    color: #313841;
+	font-size: 16px;
+	line-height: 20px;
+	margin-top: 27px;
+	margin-bottom: 40px;
+}
+
+.menu2 {
+
+	
+	
+}
+.p{
+	
+	color: black;
+	font-size: 42px;
+	line-height: 20px;
+	padding-right: 30px;
+
+}
+.p:hover{
+
+	font-size: 300%;
+	color: white;
+}
+
+.mobile {
+
+	float: right;
+	width:55%;
+}
+.mobile img{
+
+	    margin-left: 180px;
+}
+
+#feature{
+
+	padding-top:118px;
+	padding-bottom: 170px;
+	background-color: #FFFFFF;
+
+
+}
+.wrapper3{
+
+	/*border: 1px solid black;*/
+	width: 70%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.head{}
+
+.head h1{
+    
+	font-family: 'PT Sans', sans-serif;
+	font-size: 30px;
+	line-height: 30px;
+	text-align: center;
+	
+
+}
+
+.head p{
+
+	font-family: 'PT Sans', sans-serif;
+	font-size: 20px;
+	color:#909090;
+	line-height: 24px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 90px;
+
+}
+.pack{}
+.content{
+
+    width: 30%;
+	float: left;
+	margin-right: 29px;
+	margin-bottom: 87px;
+
+}
+.logo{
+	width: 15%;
+	float: left;
+}
+.logo a i{
+
+	font-size: 50px;
+    line-height: 80.47px;
+	color: #010101;
+
+}
+.texts{
+
+	float: right;
+	width: 75%;
+
+}
+
+.texts h1{
+
+	font-size: 22px;
+	line-height: 24px;
+	color: #010101;
+	margin-bottom: 22px;
+
+}
+
+.texts p{
+
+	font-size: 16px;
+	line-height: 20px;
+	color: #a7a7a7;
+
+
+
+}
+
+.content:nth-child(3n){
+
+	margin-right: 0;
+
+}
+
+#form{
+
+	min-height: 600px;
+	background-color: black;
+	padding-top: 60px;
+
+}
+.touch{
+
+	text-align: center;
+	overflow: hidden;
+	padding-right: 50px;
+
+
+}
+.touch h1{
+	color: #fcdb00;
+	margin-bottom: 17px;
+	font-size: 35px;
+}
+.touch p{
+
+	font-size: 20px;
+	color: #898989;
+	margin-top:0;
+	margin-bottom: 34px;
+}
+.touch a{
+
+	color: #fcdb00;
+	text-decoration: none;
+	font-size: 45px;
+    margin-right: 20px;
+
+}
+
+.touch a:hover{
+
+	color: white;
+	font-size: 350%;
+
+}
+input{
+
+	width: 580px;
+	height:50px; 
+	border-radius: 5px;
+	font-size: 15px;
+	border:none;
+	margin-bottom: 40px;
+
+}
+
+button{
+
+	background-color: #fcdb00;
+	width: 125px; 
+	height:52px;
+	border:none; 
+	border-radius: 6px;
+	font-size: 15px;
+	font-weight: 700;
+	margin-left: 15px;
+
+}
+
+button:hover{
+
+	
+	background-color: white;
+
+
+}
+#footer{
+
+	background-color: black;
+    margin-top: -253px;
+}
+.foot p{
+
+	color: white;
+	width: 20%;
+	float: left;
+	margin-top: 100px;
+	margin-right: 143px;
+}
+.last_foot{
+
+	color: white;
+	width: 10%;
+	float: left;
+	margin-top: 100px;
+	margin-right: 79px;
+
+}
+
+.last_foot:last-child{
+
+	margin-right: 0px;
+
+}
+
+.last_foot a{
+
+	color: white;
+	text-decoration: none;
+
+}
+
+.last_foot a:hover{
+
+	font-size: 150%;
+
+}
+.g{
+	text-decoration: none;
+	color:white;
+
+}
+.g:hover{
+
+	font-size: 150%;
+}
